@@ -243,6 +243,9 @@ function setBgImgInit() {
             $('#bg').attr('src', 'https://api.vvhan.com/api/acgimg') //随机二次元
             break;
         case "5":
+            $('#bg').attr('src', 'https://api.vvhan.com/api/girl') //福利姬美图
+            break;   
+        case "6":
             $('#bg').attr('src', bg_img["path"]) //自定义
             break;
     }
